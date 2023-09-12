@@ -1,0 +1,142 @@
+*{
+    font-family: poppins;
+}
+
+.hero{
+    background-image:url(../images/get3.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 450px;
+    color: black;
+    position: relative;
+    width: 100%;
+}
+.hero h1{
+    color: green;
+}
+.overlay{
+    background-color: rgba(0, 0, 0, 0.297);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+    z-index: 45;
+}
+.bold{
+    z-index: 90;
+    position: relative;
+    color: black;
+    padding: 10px;
+}
+.hero .btn{
+    text-align: center;
+    border: 1px solid green;
+    padding: 10px;
+    margin: 20px;
+    background-color: gray;
+    color: green;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.services{
+    background-color: #eee;
+    margin: 20px;
+}
+.service .card{
+    height: 100;
+}
+.services .kind-services{
+    box-shadow: 0px 3px 12px 0px rgba(0, 0, 0, 0.6);
+    min-height: 450px;
+    padding-bottom: 25px;
+    margin-bottom: 50px;
+}
+.services .fa{
+    padding-top: 10px;
+}
+.services h3{
+    margin: 5px;
+    padding: 10px;
+}
+.service p{
+    margin: 7;
+    padding: 6px;
+}
+.portfolio .review{
+    border:1px solid #04043f;
+    background-color: #04043f;
+    border-radius: 10px;
+}
+.portfolio img{
+    box-shadow: 0px 3px 12px 0px rgba(0, 0, 0, 0.75);
+    height: 100%;
+    width: 100%;  
+    padding-top: 10px;
+}
+.about{
+    width: 100%;
+    background-color:#eee;
+    justify-content: space-around;
+}
+.about p{
+    margin: 10px;
+    width: 100%;
+}
+.about img{
+    margin-top: 15px;
+    box-shadow: 0px 3px 12px 0px rgba(0, 0, 0, 0.75);
+width: 50%;
+height: 50%;
+}
+
+.contact{
+    background-color: #3e3d3d;
+    height: 100%;
+    color: blac;
+    border: 2px solid #d4f4e9;
+    border-radius: 10px;
+    width: 100%;
+    align-items: center;
+    padding: 20px;
+    color: white;
+}
+.form-banner{
+    display:block;
+    width: 60%;
+    padding: 10px;
+
+}
+ input{
+    display: block;
+    width: 90;
+    margin-bottom: 5px;
+    outline: none;
+}
+textarea{
+    width: 100%;
+    outline: none;
+    border: none;
+    resize: none;
+}
+    
+.testimony{
+margin: 10px;
+padding: 10px;
+text-align: justify;
+}
+.testimony .card{
+
+    border-radius: 60px;
+    margin-left: 10px;
+    padding-top: 50px;
+}
+body footer{
+    background-color:#3e3d3d;
+    padding: 15px;
+color: white;
+}
+.flex{
+    display: flex;
+}
