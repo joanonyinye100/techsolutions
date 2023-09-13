@@ -1,10 +1,7 @@
 *{
     font-family: poppins;
 }
-body{
-    width: 960px;
-    margin: 0 auto;
-}
+
 
 .hero{
     background-image:url(../images/get3.jpg);
@@ -66,8 +63,9 @@ body{
     padding: 10px;
 }
 .service p{
-    margin: 7;
+
     padding: 6px;
+    margin-right: 5px;
 }
 .portfolio .review{
     border:1px solid #04043f;
