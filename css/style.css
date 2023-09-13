@@ -85,7 +85,8 @@ body{
     background-color: #eee;
 }
 .about p{
-    width: 100%;
+    width: 90%;
+    padding: 10px;
 }
 .about img{
     margin-top: 15px;
