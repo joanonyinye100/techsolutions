@@ -119,6 +119,7 @@ textarea{
     outline: none;
     border: none;
     resize: none;
+    border-radius: 5px;
 }
     
 .testimony{
@@ -130,7 +131,7 @@ text-align: justify;
 
     border-radius: 60px;
     margin-left: 10px;
-    padding-top: 50px;
+    padding: 15px;
 }
 body footer{
     background-color:#3e3d3d;
