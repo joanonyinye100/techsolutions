@@ -1,6 +1,10 @@
 *{
     font-family: poppins;
 }
+body{
+    width: 960px;
+    margin: 0 auto;
+}
 
 .hero{
     background-image:url(../images/get3.jpg);
@@ -43,6 +47,7 @@
 .services{
     background-color: #eee;
     margin: 20px;
+    width: 100%;
 }
 .service .card{
     height: 100;
@@ -77,8 +82,7 @@
 }
 .about{
     width: 100%;
-    background-color:#eee;
-    justify-content: space-around;
+    background-color: #eee;
 }
 .about p{
     width: 100%;
@@ -136,7 +140,4 @@ body footer{
     background-color:#3e3d3d;
     padding: 15px;
 color: white;
-}
-.flex{
-    display: flex;
 }
